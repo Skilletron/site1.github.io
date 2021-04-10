@@ -1,0 +1,152 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    height: 72px;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
+}
+.container {
+    max-width: 1124px;
+    width: 1124px;
+    margin: 0 auto;
+}
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.header__flex img {
+    margin-left: 3%;
+    margin-right: 4px;
+}
+.header__flex nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header__flex nav img {
+    margin-left:23px;
+    margin-right: 101px;
+}
+.search__input {
+
+    flex: 1 1 auto;
+    margin-top:2vw;
+    margin-left:4vw;
+    width: 90%;
+    justify-content: center;
+
+}
+.restor {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 89px;
+}
+.restor .container > p { 
+    font-size: 22px;
+    margin-top: 56px;
+    margin-left: 1%;
+    margin-bottom: 0;
+}
+.restor__price {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-left: 1%;
+}
+.restor__price__elem {
+    flex: 0 308px;
+    margin-top: 36px;
+}
+.restor__price__elem p:nth-child(2) {
+    font-size: 16px;
+}
+.restor__price__elem p:nth-child(3) {
+    font-size: 14px;
+    color: #626262;
+}
+.restor__price__elem p:nth-child(4) {
+    font-size: 13px;
+    color: #1D1D1D;
+}
+.footer-container__background
+{
+    display:flex;
+    background-color: black;
+    justify-content: left;
+    flex-direction: row;
+}
+.footer-container__logo{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container__logo img{
+    float:left;
+    margin:4vw;
+   /* border: 1px solid red;*/
+}
+.footer-container__column{
+    display: flex;
+ /*border: 1px solid red;*/
+    padding: 10vw;
+    flex-direction: column;
+}
+.footer-container__column a {
+   font-size:1.3vw;
+   font-weight: 600;
+   padding: 0.5vw;
+   text-decoration: none;
+   color:white;
+}
+.footer-container__row{
+    display: flex;
+    flex-direction: row;
+}
+.footer-container__download{
+    display: flex;
+    flex-direction: row;
+    padding: 4vw;
+    width: 50%;
+    margin:0 auto;
+    justify-content: space-around;
+}
+.footer-container__info{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3vw;
+    padding-right: -3vw;
+    padding-left: -3vw;
+    width: 80%;
+    margin:0 auto;
+    justify-content: space-around;
+}
+.footer-container__info span{
+  color:white;
+  font-size:1.0vw;
+}
+footer{
+    background-color: black;
+}
+hr{
+    border-radius: 5px;
+    color: rgb(44, 44, 44);
+}
+select{
+    width :20vw;
+    font-size: 1.4vw;
+    padding: 1vw;
+    margin-left:5vw;
+    border-radius: 5px;
+}
+
+.footer-container__logo img{
+    height: 2vw;
+}
+.ubereats img{
+    width :8vw;
+    margin-right:3vw;
+}
